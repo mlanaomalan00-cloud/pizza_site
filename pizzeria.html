@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title> La Trattoria </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pizzeria.css">
+</head>
+<body>
+
+<!-- BARRE DU HAUT -->
+<div class="top-bar">
+    Pizzeria artisanale indépendante — FAIRE SIMPLE ET PAS CHER
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <div class="logo-block">
+      <div class="logo-circle">🍕</div>
+        <div class="logo-text">
+          <h1>La Trattoria </h1>
+          <span>Pizzeria familiale depuis 1995</span>
+    </div>
+  </div>
+
+ <nav>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="carte.html">Notre carte</a></li>
+          <li><a href="#apropos">A propos</a></li>
+          <li><a href="#infos">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-phone">
+        Réservation & commandes<br>
+        <strong>01 23 45 67 89</strong>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="hero-inner">
+      <p class="hero-subtitle">PIZZERIA TRADITIONNELLE ITALIENNE</p>
+      <h2 class="hero-title">La chaleur d’une vraie pizza au feu de bois</h2>
+      <p class="hero-text">
+        Aliments frais — Cuisson sur pierre — Choix : mie moelleuse ou croûte croustillante
+      </p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary" onclick="document.location='carte.html'">
+          Découvrir la carte
+        </button>
+        <button class="btn btn-outline" onclick="document.location='#infos'">
+          Commander 
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main>
+
+    <!-- A PROPOS -->
+    <section id="apropos">
+      <h2 class="section-title">La maison La Trattoria </h2>
+      <div class="about">
+        <div class="about-text">
+          <p>
+            Bienvenue sur le site La Trattoria, votre pizzeria artisanale indépendante.
+Ici, nous faisons simple et pas cher , avec des pizzas généreuses de 31 cm, préparées à partir d’aliments frais, cuites sur pierre, et servies selon vos envies : mie moelleuse ou croûte croustillante 🟢.
+Nous vous accueillons du mardi au dimanche de 18h00 à 21h15 pour partager le goût authentique de la tradition italienne.
+
+          </p>
+         
+          <div class="about-highlight">
+            « La meilleure pizza est celle que l’on partage. »  
+            <br>— La famille Rossi
+          </div>
+         </div>
+         <div class="about-image">
+          <img src="Chorizo.jpeg" alt="Pizzaiolo préparant une pizza traditionnelle">
+         </div>
+		</div>
+      
+    </section>
+	
+	
+	<h2 class="section-title">Les 3 pizzas du moment</h2>
+
+  <section class="pizzas-du-moment">
+    
+	
+    <!-- Pizza 1 -->
+    <article class="pizza-card">
+      <img src="Paysanne.jpeg" alt="Pizza Paysanne">
+      <div class="pizza-content">
+        <div class="pizza-title">Paysanne</div>
+        <div class="pizza-price">11,50 €</div>
+      </div>
+      <div class="pizza-btn-wrapper">
+        <a class="pizza-btn" href="carte.html">Voir les ingrédients</a>
+      </div>
+    </article>
+
+    <!-- Pizza 2 -->
+    <article class="pizza-card">
+      <img src="3Fromages.jpeg" alt="Pizza  3Fromages">
+      <div class="pizza-content">
+        <div class="pizza-title">3 Fromages</div>
+        <div class="pizza-price">12,50 €</div>
+      </div>
+      <div class="pizza-btn-wrapper">
+        <a class="pizza-btn" href="carte.html">Voir les ingrédients</a>
+      </div>
+    </article>
+
+    <!-- Pizza 3 -->
+    <article class="pizza-card">
+      <img src="Bergamotte.jpeg" alt="Pizza Bergamotte">
+      <div class="pizza-content">
+        <div class="pizza-title"> Bergamotte</div>
+        <div class="pizza-price">13,00 €</div>
+      </div>
+      <div class="pizza-btn-wrapper">
+        <a class="pizza-btn" href="carte.html">Voir les ingrédients</a>
+      </div>
+    </article>
+  </section>
+    <!-- AVIS CLIENTS -->
+	<h2 class="section-title">Avis de nos clients</h2>
+<section id="avis" class="avis">
+    
+
+    <div class="avis-container">
+
+        <!-- Avis 1 -->
+        <article class="avis-item">
+            <div class="avis-header">
+                <span class="pseudo">@Paul31</span>
+                <div class="stars">★★★★★</div>
+            </div>
+            <p>« Les meilleures pizzas de ce côté de Toulouse ! Cela fait des années que je vais chez cet artisan de talent. Super rapport qualité-prix et grand choix de pizzas. »</p>
+        </article>
+
+        <!-- Avis 2 -->
+        <article class="avis-item">
+            <div class="avis-header">
+                <span class="pseudo">@SophieT</span>
+                <div class="stars">★★★★★</div>
+            </div>
+            <p>« Les pizzas sont très bonnes et bien garnies. Accueil super chaleureux, le patron est très sympathique ! Je recommande +++ »</p>
+        </article>
+
+        <!-- Avis 3 -->
+        <article class="avis-item">
+            <div class="avis-header">
+                <span class="pseudo">@Lucas_Eats</span>
+                <div class="stars">★★★★★</div>
+            </div>
+            <p>« Première commande via Uber Eats : top du top ! Pizza délicieuse, bien garnie et prix raisonnables. Je recommanderai sans hésiter. »</p>
+        </article>
+
+       
+
+    </div>
+</section>
+<!-- INFOS PRATIQUES -->
+<section id="infos">
+    <h2 class="section-title">Horaires & contact</h2>
+    <div class="info-grid">
+    <!-- Horaires -->
+      <div class="info-card">
+       <h3>Horaires d’ouverture</h3>
+         <div class="hours-list">
+            <p><span>Lundi</span><span>Fermé</span></p>
+            <p><span>Mardi</span><span> 18h00 – 21h15</span></p>
+            <p><span>Mercredi</span><span>18h00 – 21h15</span></p>
+            <p><span>Jeudi</span><span>18h00 – 21h15</span></p>
+            <p><span>Vendredi</span><span>18h00 – 21h15</span></p>
+            <p><span>Samedi</span><span>18h00 – 21h15</span></p>
+            <p><span>Dimanche</span><span>18h00 – 21h15</span></p>
+          </div>
+      </div>
+
+        <!-- Contact / Réservation -->
+      <div class="info-card">
+          <h3>Adresse & réservations</h3>
+          <p>
+            La Trattoria <br>
+            24, Rue des Carmes<br>
+            31000 Toulouse
+          </p>
+          <p style="margin-top: 6px;">
+            Téléphone : <strong>06 00 00 00 00</strong><br>
+            Email : <strong>contact@latrattoria.fr</strong>
+          </p>
+
+          <div class="map-hero" aria-label="Localisation de La Trattoria sur la carte">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.9364649683916!2d1.4849845999999998!3d43.649490199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aea2e0fd86a55f%3A0xb477fc26ae557e35!2sLa%20Trattoria!5e0!3m2!1sfr!2sfr!4v1763068201457!5m2!1sfr!2sfr" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen=""> </iframe>
+          </div>
+
+          <div class="reservation-actions">
+            <button class="btn-small"
+                    onclick="window.location.href='tel:0123456789'">
+              📞 Appeler pour Commander
+            </button>
+          </div>
+		  
+      </div>
+    </div>
+</section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2025 La Trattoria  – Pizzeria artisanale indépendante</span>
+    <span> À emporter </span>
+	<div class="container">
+                <h2 class="container">Mentions légales</h2>
+                <p><strong>Nom du site :</strong> La Trattoria</p>
+                <p><strong>Adresse du site :</strong> www.latrattoria-toulouse.fr</p>
+
+                <h3>Éditeur du site</h3>
+                <p>
+                    La Trattoria — Pizzeria artisanale à emporter<br>
+                    24 rue des Carmes, 31000 Toulouse<br>
+                    Téléphone : 06 00 00 00 00<br>
+                    Email : contact@latrattoria.fr<br>
+                    Statut juridique : Entreprise individuelle<br>
+                    Numéro SIRET : 999 888 777 00011<br>
+                    Responsable de la publication : M. Marco Rossi
+                </p>
+
+                <h3>Hébergement</h3>
+                <p>
+                    Hébergeur du site : <em>à compléter</em><br>
+                    (Nom de l’hébergeur, adresse postale et coordonnées)
+                </p>
+
+                <h3>Propriété intellectuelle</h3>
+                <p>
+                    L’ensemble des contenus présents sur ce site (textes, images, logos) est réservé à un usage
+                    personnel et ne peut être reproduit sans autorisation.
+                </p>
+
+                <p class="credits">
+                    Site réalisé par <strong>Ton Prénom NOM</strong> – Étudiant en BUT / IUT.
+                </p>
+    </div>
+  </footer>
+
+</body>
+</html>
